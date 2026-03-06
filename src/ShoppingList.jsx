@@ -1,15 +1,10 @@
+import ShoppingListItem from "./ShoppingListItem";
+
 export default function ShoppingList({ items }) {
   return (
     <ul>
       {items.map((i) => (
-        <li
-          style={{
-            color: i.completed ? "grey" : "white",
-            textDecoration: i.completed ? "line-through" : "",
-          }}
-        >
-          {i.item} - {i.quantity}
-        </li>
+        <ShoppingListItem key={i.id} {...i} /> // Spread Operator to pass in props
       ))}
     </ul>
   );

@@ -9,10 +9,10 @@ import ColorList from "./ColorList";
 import ShoppingList from "./ShoppingList";
 
 const data = [
-  { item: "eggs", quantity: 12, completed: false },
-  { item: "milk", quantity: 1, completed: true },
-  { item: "chicken breasts", quantity: 4, completed: false },
-  { item: "carrots", quantity: 12, completed: true },
+  { id: 1, item: "eggs", quantity: 12, completed: false },
+  { id: 2, item: "milk", quantity: 1, completed: true },
+  { id: 3, item: "chicken breasts", quantity: 4, completed: false },
+  { id: 4, item: "carrots", quantity: 12, completed: true },
 ];
 
 function App() {
