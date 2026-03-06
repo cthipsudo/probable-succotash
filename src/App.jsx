@@ -8,6 +8,7 @@ import Heading from "./Heading";
 import ColorList from "./ColorList";
 import ShoppingList from "./ShoppingList";
 import PropertyList from "./PropertyList";
+import Clicker from "./Clicker";
 
 // const data = [
 //   { id: 1, item: "eggs", quantity: 12, completed: false },
@@ -28,7 +29,8 @@ const properties = [
 function App() {
   return (
     <div>
-      <PropertyList data={properties} />
+      <Clicker />
+      {/* <PropertyList data={properties} /> */}
       {/* <ShoppingList items={data} />
        <Heading color="Magenta" text="WHAT'S UP DUDE!" fontSize="20px" />
       <Heading color="Magenta" text="WHAT'S UP DUDE!" fontSize="48px" />
